@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "playerless",
+  "version": "${version}",
+
+  "name": "playerless",
+  "description": "Drop XP & loot regardless of death cause",
+  "authors": ["Jad Chehimi"],
+  "contact": {
+    "homepage": "https://curseforge.com/mc-mods/playerless",
+    "sources": "https://github.com/jadc/playerless"
+  },
+
+  "license": "MIT",
+  "icon": "assets/playerless/icon.png",
+
+  "environment": "*",
+  "mixins": [ "playerless.mixins.json" ],
+
+  "depends": { "fabricloader": ">=0.7.4" }
+}
